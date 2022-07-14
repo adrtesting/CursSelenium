@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="package7.ExampleClass">
+      <class name="curs9.FindElements">
         <methods>
-          <include name="testCeva"/>
+          <include name="testFindElements"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- package7.ExampleClass -->
+      </class> <!-- curs9.FindElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
