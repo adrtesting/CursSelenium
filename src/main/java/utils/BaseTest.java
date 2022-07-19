@@ -24,6 +24,7 @@ public class BaseTest {
 		//System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
+		
 		driver.get("https://keybooks.ro/");
 	
 	}
