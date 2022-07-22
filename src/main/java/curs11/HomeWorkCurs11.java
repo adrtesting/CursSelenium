@@ -1,6 +1,7 @@
 package curs11;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -50,7 +51,8 @@ public class HomeWorkCurs11 extends BaseTest {
 		Thread.sleep(2000);
 		
 		String nameofthebookadded = driver.findElement(By.xpath("//*[@class='woocommerce-message']")).getText();
-		assertEquals(nameofthebookadded, "'Life in the garden has been added to your cart.");
+		System.out.println(nameofthebookadded);
+		assertTrue(nameofthebookadded.contains("“Life in the garden” has been added to your cart."));
 		
 	}
 	

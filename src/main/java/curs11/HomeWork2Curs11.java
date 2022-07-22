@@ -20,11 +20,10 @@ public class HomeWork2Curs11 extends BaseTest {
 		
 		driver.findElement(By.xpath("//*[@id='menu-item-695']/a")).click();
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
-		jse.executeScript("window.scrollBy(0,200)");
+		jse.executeScript("window.scrollBy(0,300)");
+		
+		WebElement drama = driver.findElement(By.xpath("(//div[@class='sc_skills_total'])[1]"));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		
-		
-		WebElement drama = driver.findElement(By.xpath("//div[@class='sc_skills_total'])[1]"));
 		wait.until(ExpectedConditions.textToBePresentInElement(drama, "95%"));
 		assertEquals(drama, "95%");
 	}
