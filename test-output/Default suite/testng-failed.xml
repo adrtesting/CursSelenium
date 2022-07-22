@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="curs10.WaitExample">
+      <class name="curs11.HomeWork2Curs11">
         <methods>
+          <include name="singleAuthorPage"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="waitExample"/>
         </methods>
-      </class> <!-- curs10.WaitExample -->
+      </class> <!-- curs11.HomeWork2Curs11 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
