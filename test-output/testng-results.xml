@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-22T19:18:40 EEST" name="Default suite" finished-at="2022-07-22T19:19:10 EEST" duration-ms="30225">
+  <suite started-at="2022-07-22T21:50:26 EEST" name="Default suite" finished-at="2022-07-22T21:50:50 EEST" duration-ms="23037">
     <groups>
     </groups>
-    <test started-at="2022-07-22T19:18:40 EEST" name="Default test" finished-at="2022-07-22T19:19:10 EEST" duration-ms="30225">
-      <class name="curs11.HomeWorkCurs11">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:curs11.HomeWorkCurs11@4738a206]" started-at="2022-07-22T19:18:40 EEST" name="setUp" finished-at="2022-07-22T19:18:52 EEST" duration-ms="11665" status="PASS">
+    <test started-at="2022-07-22T21:50:26 EEST" name="Default test" finished-at="2022-07-22T21:50:50 EEST" duration-ms="23037">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@614ca7df]" started-at="2022-07-22T21:50:27 EEST" name="setUp" finished-at="2022-07-22T21:50:41 EEST" duration-ms="14190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homeworkBook()[pri:0, instance:curs11.HomeWorkCurs11@4738a206]" started-at="2022-07-22T19:18:52 EEST" name="homeworkBook" finished-at="2022-07-22T19:18:57 EEST" duration-ms="4510" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@614ca7df]" started-at="2022-07-22T21:50:41 EEST" name="validLogin" finished-at="2022-07-22T21:50:47 EEST" duration-ms="6504" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homeworkBook -->
-        <test-method signature="homeworkReview()[pri:1, instance:curs11.HomeWorkCurs11@4738a206]" started-at="2022-07-22T19:18:57 EEST" name="homeworkReview" finished-at="2022-07-22T19:19:04 EEST" duration-ms="7300" status="PASS">
+        </test-method> <!-- validLogin -->
+        <test-method signature="invalidTest()[pri:1, instance:tests.LoginTest@614ca7df]" started-at="2022-07-22T21:50:47 EEST" name="invalidTest" finished-at="2022-07-22T21:50:49 EEST" duration-ms="1605" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homeworkReview -->
-        <test-method signature="homeworkAddToCart()[pri:2, instance:curs11.HomeWorkCurs11@4738a206]" started-at="2022-07-22T19:19:04 EEST" name="homeworkAddToCart" finished-at="2022-07-22T19:19:10 EEST" duration-ms="5812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeworkAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs11.HomeWorkCurs11@4738a206]" started-at="2022-07-22T19:19:10 EEST" name="tearDown" finished-at="2022-07-22T19:19:10 EEST" duration-ms="838" status="PASS">
+        </test-method> <!-- invalidTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@614ca7df]" started-at="2022-07-22T21:50:49 EEST" name="tearDown" finished-at="2022-07-22T21:50:50 EEST" duration-ms="675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- curs11.HomeWorkCurs11 -->
+      </class> <!-- tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
