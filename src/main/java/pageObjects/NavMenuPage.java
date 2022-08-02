@@ -23,9 +23,8 @@ public class NavMenuPage {
 	@FindBy(xpath="(//a[contains(@class, 'popup_login_link')])[1]") public WebElement loginLink;
 	
 	//FindBy este acelasi lucru cu: WebElement loginLink = driver.findElement(By.xpath("(//a[contains(@class, 'popup_login_link')])[1]")));
-	
-	@FindBy(linkText = "CONTACTS") public WebElement contactsLink;
 	//scopul Page Models este sa aiba elemente
+	@FindBy(linkText = "CONTACTS") public WebElement contactsLink;
 	@FindBy(linkText = "BLOG") public WebElement blogLink;
 	@FindBy(linkText = "Post Formats") public WebElement postFormatsLink;
 	@FindBy(linkText = "BOOKS") public WebElement shopLink;

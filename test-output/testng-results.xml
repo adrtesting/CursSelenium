@@ -1,66 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-02T15:26:15 EEST" name="Default suite" finished-at="2022-08-02T15:26:41 EEST" duration-ms="26344">
+  <suite started-at="2022-08-02T18:30:36 EEST" name="Default suite" finished-at="2022-08-02T18:31:02 EEST" duration-ms="26709">
     <groups>
     </groups>
-    <test started-at="2022-08-02T15:26:15 EEST" name="Default test" finished-at="2022-08-02T15:26:41 EEST" duration-ms="26344">
-      <class name="tests.ContactPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:15 EEST" name="setUp" finished-at="2022-08-02T15:26:22 EEST" duration-ms="7061" status="PASS">
+    <test started-at="2022-08-02T18:30:36 EEST" name="Default test" finished-at="2022-08-02T18:31:02 EEST" duration-ms="26709">
+      <class name="tests.BlogTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlogTest@18d87d80]" started-at="2022-08-02T18:30:36 EEST" name="setUp" finished-at="2022-08-02T18:30:42 EEST" duration-ms="6814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="contactTest()[pri:0, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:22 EEST" name="contactTest" finished-at="2022-08-02T15:26:32 EEST" duration-ms="10109" status="PASS">
+        <test-method signature="blogTest()[pri:0, instance:tests.BlogTest@18d87d80]" started-at="2022-08-02T18:30:42 EEST" name="blogTest" finished-at="2022-08-02T18:30:52 EEST" duration-ms="9994" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactTest -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:32 EEST" name="recordFailure" finished-at="2022-08-02T15:26:32 EEST" duration-ms="2" status="PASS">
+        </test-method> <!-- blogTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.BlogTest@18d87d80]" started-at="2022-08-02T18:30:52 EEST" name="recordFailure" finished-at="2022-08-02T18:30:52 EEST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contactTest status=SUCCESS method=ContactPageTest.contactTest()[pri:0, instance:tests.ContactPageTest@618425b5] output={null}]]]>
+                <![CDATA[[TestResult name=blogTest status=SUCCESS method=BlogTest.blogTest()[pri:0, instance:tests.BlogTest@18d87d80] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method signature="invalidContactEmail()[pri:1, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:32 EEST" name="invalidContactEmail" finished-at="2022-08-02T15:26:36 EEST" duration-ms="4426" status="PASS">
+        <test-method signature="slider()[pri:1, instance:tests.BlogTest@18d87d80]" started-at="2022-08-02T18:30:52 EEST" name="slider" finished-at="2022-08-02T18:31:02 EEST" duration-ms="9539" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidContactEmail -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:36 EEST" name="recordFailure" finished-at="2022-08-02T15:26:36 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- slider -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.BlogTest@18d87d80]" started-at="2022-08-02T18:31:02 EEST" name="recordFailure" finished-at="2022-08-02T18:31:02 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidContactEmail status=SUCCESS method=ContactPageTest.invalidContactEmail()[pri:1, instance:tests.ContactPageTest@618425b5] output={null}]]]>
+                <![CDATA[[TestResult name=slider status=SUCCESS method=BlogTest.slider()[pri:1, instance:tests.BlogTest@18d87d80] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method signature="invalidContactName()[pri:2, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:36 EEST" name="invalidContactName" finished-at="2022-08-02T15:26:41 EEST" duration-ms="4344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidContactName -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:41 EEST" name="recordFailure" finished-at="2022-08-02T15:26:41 EEST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=invalidContactName status=SUCCESS method=ContactPageTest.invalidContactName()[pri:2, instance:tests.ContactPageTest@618425b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactPageTest@618425b5]" started-at="2022-08-02T15:26:41 EEST" name="tearDown" finished-at="2022-08-02T15:26:41 EEST" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlogTest@18d87d80]" started-at="2022-08-02T18:31:02 EEST" name="tearDown" finished-at="2022-08-02T18:31:02 EEST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.ContactPageTest -->
+      </class> <!-- tests.BlogTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
